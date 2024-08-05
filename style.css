@@ -4,53 +4,33 @@ body {
   margin: 0;
 }
 
-header,
-main,
-nav,
-aside,
-footer {
-  padding:  16px;
-  box-sizing: border-box;
-}
-
 header {
   background: pink;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
-main {
-  background: skyblue;
+h1 {
+  margin: 0;
+  font-size: 16px;
 }
 
 nav {
   background: orange;
 }
 
-aside {
-  background: tomato;
+.pc-menu {
   display: none;
 }
 
-footer {
-  background: silver;
-}
-
+/* 
 @media (min-width: 600px) {
-  .container {
-    display: flex;
-  }
-  
-  nav {
-    width: 160px;
-    order: -1;
+  .sp-menu {
+    display: none;
   }
 
-  main {
-    flex: 1;
-  }
-
-  aside {
+  .pc-menu {
     display: block;
-    width: 160px;
   }
-
-}
+} */
