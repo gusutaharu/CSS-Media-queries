@@ -1,35 +1,25 @@
 @charset "utf-8";
 
-body {
-  margin: 0;
+.box {
+  height: 80px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
-header {
+.box-1 {
   background: pink;
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
+}
+.box-2 {
+  background: skyblue;
 }
 
-h1 {
-  margin: 0;
-  font-size: 16px;
-}
-
-nav {
+.box-3 {
   background: orange;
 }
-
-.pc-menu {
-  display: none;
+.box-4 {
+  background: tomato;
 }
 
-@media (min-width: 600px) {
-  .sp-menu {
-    display: none;
-  }
-
-  .pc-menu {
-    display: block;
-  }
+.box-5 {
+  background: silver;
 }
